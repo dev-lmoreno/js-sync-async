@@ -52,8 +52,6 @@ Alguns exemplos mais reais de utilização são as requesições que fazemos as 
 
 Lembram que foi comentado um pouco acima sobre o Js ser executado em uma única thread ? Pois então, as requisições são entregues para ser executadas em uma thread separada da atual. Por conta disso mesmo fazendo uma requisição em nosso código ele segue o jogo, fazendo o que precisa. No momento que a requisição é feita uma nova thread para ela é criada, enquanto isso o código que nós escrevemos vai sendo executado em sua "main thread".
 
-[Colocar uma imagem de request síncrona e assíncrona]  
-
 Para tratar esse códigos assíncronos nós temos algumas maneiras, entre elas:
 - Callbacks
 - Promises
@@ -467,3 +465,7 @@ const getSquirtle = async() => {
 
 getSquirtle();
 ```
+
+---
+Todo:
+* Adicionar imagens para facilitar a explicação
